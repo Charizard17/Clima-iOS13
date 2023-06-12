@@ -13,7 +13,7 @@ struct WeatherManager {
     
     func fetchWeather(cityName: String) {
         let urlString = "\(weatherUrl)&q=\(cityName)"
-        print("Api Key: \(apiKey)")
+        print("Api Key: \(openWeatherApiKey)")
         print(urlString)
     }
 }

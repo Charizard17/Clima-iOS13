@@ -49,6 +49,13 @@ switch conditionID {
         }
 ```
 
+### Reminder
+
+In your Clima folder add a file called Constants.swift. The file should look like this:
+```
+let openWeatherApiKey = "INSERT YOUR API KEY HERE"
+```
+
 >This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
 ![End Banner](Documentation/readme-end-banner.png)
